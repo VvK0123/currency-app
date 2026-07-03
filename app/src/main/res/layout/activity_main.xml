@@ -1,1 +1,59 @@
 
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="#FAFAFA">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Курсы валют"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/tvDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Курс на: ..."
+        android:textSize="16sp"
+        android:textColor="#666"
+        android:layout_marginBottom="24dp"/>
+
+    <TextView
+        android:id="@+id/tvUsd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="USD: загрузка..."
+        android:textSize="20sp"
+        android:layout_marginBottom="12dp"/>
+
+    <TextView
+        android:id="@+id/tvEur"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EUR: загрузка..."
+        android:textSize="20sp"
+        android:layout_marginBottom="32dp"/>
+
+    <Button
+        android:id="@+id/btnRefresh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Обновить"/>
+
+    <TextView
+        android:id="@+id/tvStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="14sp"
+        android:textColor="#888"
+        android:layout_marginTop="16dp"/>
+
+</LinearLayout>
